@@ -228,3 +228,14 @@ body{
 
 }
 
+
+/* Footer */
+
+.footer {
+    display: flex;
+    background: #1F2937;
+    justify-content: center;
+    font-size: 10px;
+    color: white;
+    padding: 50px;
+}
