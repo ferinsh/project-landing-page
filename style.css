@@ -5,6 +5,9 @@ body{
 
 
 
+
+/* HEADER */
+
 .headertop {
     display: flex;
     justify-content: space-between;
@@ -94,4 +97,54 @@ body{
 
 .headerimg img {
     width: 400px;
+}
+
+
+
+/* SECTION 1 */
+
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.info-header {
+    padding: 30px;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.info-tab {
+    display: flex;
+    gap: 10px;
+
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.imgbox {
+    border: 3px solid #3882F6;
+    border-radius: 10%;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+}
+
+.infotext{
+    text-align: center;
+    width: 200px;
+    font-size: 18px;
 }
