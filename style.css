@@ -111,6 +111,7 @@ body{
     align-items: center;
     padding-left: 200px;
     padding-right: 200px;
+    padding-bottom: 50px;
 }
 
 .info-header {
@@ -148,3 +149,29 @@ body{
     width: 200px;
     font-size: 18px;
 }
+
+
+/* Section 2 */
+
+.section2 {
+    display: flex;
+    background: #E5E7EB;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+   padding-left: 20px;
+   padding-right: 20px;
+}
+
+.quote p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 1;
+    color: #1F2937;
+}
+
